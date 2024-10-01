@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const ExampleComponent = () => {
+const GetData = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -29,4 +29,4 @@ const ExampleComponent = () => {
   );
 };
 
-export default ExampleComponent;
+export default GetData;

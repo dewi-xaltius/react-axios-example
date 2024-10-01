@@ -1,12 +1,12 @@
 import './App.css';
-import ExampleComponent from './components/ExampleComponent';
+import GetData from './components/GetData';
 import PostData from './components/PostData';
 
 function App() {
   return (
     <div className="App">
       <PostData />
-      <ExampleComponent />
+      <GetData />
     </div>
   );
 }
